@@ -1,5 +1,4 @@
-<p align="center">
-  <img src="resources/BadMundaX.png" alt="BadMundaXSpam Logo">
+<p align="center"><a href="https://t.me/PyXen"><img src="https://telegra.ph/file/3063af27d9cc8580845e1.jpg" width="400"></a></p>
 </p>
 <h6 align="center">
   <b>• ᴜsᴇʀ ʙᴏᴛ •</b>
