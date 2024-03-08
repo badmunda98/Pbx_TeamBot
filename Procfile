@@ -1,1 +1,1 @@
-worker: python3 -m DaxxTeam
+worker: python3 -m PbxTeam
