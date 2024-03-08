@@ -11,22 +11,22 @@ async def help_menu_logo(answer):
     if image:
         thumb_image = image
     else:
-        thumb_image = "https://telegra.ph/file/027283ee9defebc3298b8.png"
+        thumb_image = "https://telegra.ph/file/3063af27d9cc8580845e1.jpg"
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
             title="🥀 Help Menu ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of DAXXUSERBOT ✨...",
+            description=f"🥀 Open Help Menu Of PBXUSERBOT ✨...",
             caption=f"""
 **🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
+Pbx Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**
+🌷Powered By : [𝐏ʙx 𝐔ᴘᴅᴀᴛᴇ](https://t.me/HEROKUBIN_01).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -42,12 +42,12 @@ async def help_menu_text(answer):
             title="🥀 Help Menu ✨",
             input_message_content=InputTextMessageContent(f"""
 **🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
+Pbx Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**""",
+🌷Powered By : [𝐏ʙx 𝐔ᴘᴅᴀᴛᴇ](https://t.me/HEROKUBIN_01).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
