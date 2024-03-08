@@ -13,12 +13,12 @@
     "env": {
         "API_ID": {
             "description": "Enter your api id here.",
-            "value": "",
+            "value": "27383453",
             "required": true
         },
         "API_HASH": {
             "description": "Enter your api hash here.",
-            "value": "",
+            "value": "4c246fb0c649477cc2e79b6a178ddfaa",
             "required": true
         },
         "BOT_TOKEN": {
@@ -33,12 +33,12 @@
         },
         "MONGO_DB_URL": {
             "description": "Enter your mongodb url here.",
-            "value": "",
+            "value": "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/",
             "required": true
         },
         "LOG_GROUP_ID": {
             "description": "Enter your private log group id here.",
-            "value": "",
+            "value": "-1002056907061",
             "required": true
         }
     },
