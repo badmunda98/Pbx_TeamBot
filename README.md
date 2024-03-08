@@ -8,7 +8,7 @@
 
 <h3 align="center">Deployment</h3>
 
-  - Heroku: [Click Here](https://github.com/Badhacker98/Spam_X_bot/blob/main/badmunda/heroku.md)
+  - Heroku: [Click Here](https://github.com/Badhacker98/Pbx_TeamBot/blob/main/bad/heroku.md)
 
 
 ### Contact :
