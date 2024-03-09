@@ -59,8 +59,6 @@ async def send_lyrics(bot: Client, message: Message):
         await message.delete()
 
 
-add_command_help("", [[".l `or` ."]])
-
 
 __NAME__ = "lyrics"
 __MENU__ = """
