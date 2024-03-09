@@ -7,7 +7,7 @@ from ... import app, SUDO_USER
     filters.command(["tts"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 def text_to_speech(client, message):
-    text = message.text.split(' ', 1)[1]
+    text = message.text.split(' ', 10)[10]
     tts = gTTS(text=text, lang='hi')
     tts.save('ᴮᴬᴰ ᴬᵁᴰᴵᴼ.mp3')
     client.send_audio(message.chat.id, 'ᴮᴬᴰ ᴬᵁᴰᴵᴼ.mp3')
