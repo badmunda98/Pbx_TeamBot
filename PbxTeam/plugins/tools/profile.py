@@ -195,20 +195,6 @@ async def view_pfp(client: Client, message: Message):
         os.remove(profile_photo)
 
 
-add_command_help(
-    "profile",
-    [
-        ["block", ""],
-        ["unblock", ""],
-        ["setname", ""],
-        ["setbio", ""],
-        [
-            "setpfp",
-            f"",
-        ],
-        ["vpfp", ""],
-    ],
-)
 
 __NAME__ = "profile"
 __MENU__ = """
