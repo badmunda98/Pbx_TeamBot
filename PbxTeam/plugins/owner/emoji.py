@@ -147,7 +147,7 @@ async def emoji(client: Client, message: Message):
     await op.edit(result)
     
 
-@app.on_message(cdz(["cj"]) & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["love"]) & (filters.me | filters.user(SUDO_USER)))
 async def cmoji(client: Client, message: Message):
     op = await edit_or_reply(message, "`Emojifying the text..`")
     args = get_text(message)
@@ -161,7 +161,7 @@ async def cmoji(client: Client, message: Message):
         emoji, arg = args.split(" ", 1)
     except Exception:
         arg = args
-        emoji = "😎"
+        emoji = "❤️"
     result = ""
     for a in arg:
         a = a.lower()
@@ -177,7 +177,7 @@ async def cmoji(client: Client, message: Message):
 __NAME__ = "emoji"
 __MENU__ = """
 `.emoji` - **.emoji (name)**
-`.cmoji` - **.cmoji (emoji or text) (name)**
+`.love` - **.cmoji (emoji or text) (name)**
 
 **Alternate Command:** '`whois`'
 """
