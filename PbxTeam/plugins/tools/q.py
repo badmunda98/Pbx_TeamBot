@@ -36,19 +36,6 @@ async def quotly(client: Client, message: Message):
                 return await message.edit("**Failed to Create Quotly Sticker**")
 
 
-add_command_help(
-    "",
-    [
-        [
-            f"q or .quotly",
-            "To make an quote.",
-        ],
-        [
-            f"q <color> or .quotly <color>",
-            ".",
-        ],
-    ],
-)
 
 
 
