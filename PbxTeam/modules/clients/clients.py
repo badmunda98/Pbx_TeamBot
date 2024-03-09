@@ -59,14 +59,14 @@ app = Client(
 )
 
 ass = Client(
-    name = "DAXXPlayer",
+    name = "PbxPlayer",
     api_id = API_ID,
     api_hash = API_HASH,
     session_string = SESSION_STRING,
 )
 
 bot = Client(
-    name = "DAXXSUPPORT",
+    name = "PbxSUPPORT",
     api_id = API_ID,
     api_hash = API_HASH,
     bot_token = BOT_TOKEN,
@@ -113,8 +113,8 @@ async def run_async_clients():
     except:
         pass
     try:
-        await app.join_chat("DAXXSUPPORT")
-        await app.join_chat("DAXXDiscus")
+        await app.join_chat("ll_THE_BAD_BOT_ll")
+        await app.join_chat("HEROKUBIN_01")
     except:
         pass
     if SESSION_STRING:
@@ -126,8 +126,8 @@ async def run_async_clients():
         except:
             pass
         try:
-            await app.join_chat("DAXXSUPPORT")
-            await app.join_chat("DAXXDiscus")
+            await app.join_chat("ll_THE_BAD_BOT_ll")
+            await app.join_chat("HEROKUBIN_01")
         except:
             pass
     LOGGER.info("Starting Helper Robot ...")
