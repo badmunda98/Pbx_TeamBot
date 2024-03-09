@@ -109,7 +109,7 @@ async def run_async_clients():
     await app.start()
     LOGGER.info("Userbot Started.")
     try:
-        await app.send_message(LOG_GROUP_ID, "**Userbot Started.**")
+        await app.send_message(LOG_GROUP_ID, "**ᴘʙx ᴜsᴇʀʙᴏᴛ ɪs ᴀʟɪᴠᴇ**")
     except:
         pass
     try:
@@ -134,7 +134,7 @@ async def run_async_clients():
     await bot.start()
     LOGGER.info("Helper Robot Started.")
     try:
-        await bot.send_message(LOG_GROUP_ID, "**Helper Robot Started.**")
+        await bot.send_message(LOG_GROUP_ID, "**ᴘʙx ʀᴏʙᴏᴛ ɪs ᴀʟɪᴠᴇ.**")
     except:
         pass
     LOGGER.info("Starting PyTgCalls Client...")
