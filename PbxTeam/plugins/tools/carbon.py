@@ -34,5 +34,6 @@ async def _carbon(client, message):
 __NAME__ = "carbon"
 __MENU__ = """
 `.carbon` - **Carbonize text with default settings.**
+`.paste` - **txt,file type on carbon paper .**
 
 """
