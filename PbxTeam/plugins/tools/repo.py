@@ -69,3 +69,10 @@ async def help(client: Client, message: Message):
             ]
         ),
         )
+
+
+__NAME__ = "repo"
+__MENU__ = """
+`.repo` - **chek bot repo.**
+
+"""
