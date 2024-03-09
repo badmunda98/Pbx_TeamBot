@@ -19,3 +19,4 @@ youtube-search==2.1.2
 pyfiglet
 pydub
 aiohttp==3.9.1
+pymediainfo
