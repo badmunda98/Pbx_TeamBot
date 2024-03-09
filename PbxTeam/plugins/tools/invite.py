@@ -6,7 +6,7 @@ from pyrogram.errors.exceptions.flood_420 import FloodWait
 from ... import app, SUDO_USER
 from ... import *
 
-@app.on_message(cdz(["utag"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["addmore"])  & (filters.me | filters.user(SUDO_USER)))
 async def invite(client: Client, message: Message):
     r = await message.reply_text("Processing . . .")
     text = message.text.split(" ", 1)
@@ -31,3 +31,9 @@ async def invite(client: Client, message: Message):
             except Exception as e:
                 pass
               
+
+
+__NAME__ = "invite"
+__MENU__ = """
+ `.invitesall` - .invitesall @groupusername
+ """
