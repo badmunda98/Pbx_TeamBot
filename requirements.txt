@@ -18,3 +18,4 @@ youtube-search-python==1.6.6
 youtube-search==2.1.2
 pyfiglet
 pydub
+aiohttp==3.9.1
