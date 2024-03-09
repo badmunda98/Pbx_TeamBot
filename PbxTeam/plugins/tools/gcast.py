@@ -14,7 +14,7 @@ def get_arg(message: Message):
         return ""
     return " ".join(split[1:])
 
-@Client.on_message(filters.command(["gcast"], ".") & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["gcast"]) & (filters.me | filters.user(SUDO_USER)))
 async def gcast(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         tex = await message.reply_text("`Started global broadcast...`")
@@ -43,7 +43,7 @@ async def gcast(client: Client, message: Message):
     await tex.edit_text(f"**Successfully Sent Message To** `{done}` **Groups, chat, Failed to Send Message To** `{error}` **Groups**")
 
 
-@Client.on_message(filters.command(["gucast"], ".") & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["gucast"]) & (filters.me | filters.user(SUDO_USER)))
 async def gucast(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         tex = await message.reply_text("`Started global broadcast...`")
@@ -74,6 +74,6 @@ async def gucast(client: Client, message: Message):
 
 __NAME__ = "broadcast"
 __MENU__ = """
-`.gcast` - **msg broadcast.**
-
+`.gcast` [text/reply] - **Sending Global Broadcast messages to all groups.**
+`.gucast` [text/reply] - **Sending Global Broadcast messages to all incoming Private Massages.**       
 """
