@@ -139,4 +139,5 @@ __NAME__ = "info"
 __MENU__ = """
 `.info` **get telegram user info with full description.**
 `.chatinfo` **get group info with full description.**
+`.id` ** telegram user id detail**
 """
