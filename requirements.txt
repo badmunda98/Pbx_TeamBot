@@ -6,7 +6,7 @@ py-tgcalls==1.1.6
 tgcrypto==1.2.5
 yt-dlp==2023.12.30
 telegraph
-pillow
+pillow==9.5.0
 Unidecode
 git+https://github.com/badmunda98/py-trans.git
 aiohttp
