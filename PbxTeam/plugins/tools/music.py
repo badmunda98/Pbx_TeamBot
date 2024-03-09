@@ -60,8 +60,6 @@ async def send_music(bot: Client, message: Message):
         await message.delete()
 
 
-add_command_help("music", [[".m `or` ."]])
-
 
 __NAME__ = "music"
 __MENU__ = """
