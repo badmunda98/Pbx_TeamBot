@@ -11,3 +11,4 @@ pillow
 Unidecode
 git+https://github.com/badmunda98/py-trans.git
 aiohttp
+gtts
