@@ -31,6 +31,7 @@ async def _human_time_duration(seconds):
 
 @app.on_message(cdz(["alive"])  & (filters.me | filters.user(SUDO_USER)))
 async def alive(client: Client, message: Message):
+    r = await message.reply_text("**𝐀𝐋𝐈𝐕𝐄**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
