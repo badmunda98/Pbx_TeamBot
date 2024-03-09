@@ -1,5 +1,12 @@
+from PbxTeam.console import  SUDO_USERS, OWNER_ID
+
+
 # Ai-Userbot Version
 __version__ = "v2.1.0"
+
+spam_chats = []
+SUDO_USER = SUDO_USERS
+SUDO_USERS.append(OWNER_ID)
 
 
 # All Clients
