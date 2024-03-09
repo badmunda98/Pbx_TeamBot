@@ -71,3 +71,9 @@ async def gucast(client: Client, message: Message):
                     await asyncio.sleep(0.3)
     await text.edit_text(f"**Successfully Sent Message To** `{done}` **chat, Failed to Send Message To** `{error}` **chat**")
           
+
+__NAME__ = "broadcast"
+__MENU__ = """
+`.gcast` - **msg broadcast.**
+
+"""
