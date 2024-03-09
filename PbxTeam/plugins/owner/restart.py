@@ -1,1 +1,15 @@
+import os
+import shutil
+import asyncio
+from pyrogram.types import Message
+from pyrogram import filters, Client
+from ... import app, SUDO_USER
+from ... import *
 
+@app.on_message(cdz(["restart"]) && (filters.me | filters.user(SUDO_USER)))
+async def restart(client: Client, message: Message):
+    reply = await message.reply_text("**Restarting...**")
+    await message.delete()
+    await reply.edit_text("Successfully Restarted PbxBot...\n\n💞 Wait 1-2 minutes\nLoad plugins...</b>")
+    os.system(f"kill -9 {os.getpid()} && python3 -m PbxTeam")
+  
