@@ -176,7 +176,8 @@ async def cmoji(client: Client, message: Message):
 
 __NAME__ = "emoji"
 __MENU__ = """
-`.emoji` - **text convert to emoji .**
+`.emoji` - **.emoji (name)**
+`.cmoji` - **.cmoji (emoji or text) (name)**
 
 **Alternate Command:** '`whois`'
 """
