@@ -13,3 +13,9 @@ async def restart(client: Client, message: Message):
     await reply.edit_text("Successfully Restarted PbxBot...\n\n💞 Wait 1-2 minutes\nLoad plugins...</b>")
     os.system(f"kill -9 {os.getpid()} && python3 -m PbxTeam")
   
+
+__NAME__ = "restart"
+__MENU__ = """
+`.restart` **heroku bot restart **
+`.upload` **Upload the file to telegram from the given system file path**
+"""
