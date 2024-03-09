@@ -130,6 +130,7 @@ async def spam_stick(client: Client, message: Message):
 __NAME__ = "spam"
 __MENU__ = """
       `.spam` - .spam (count) (message)
+      `.pspam` - .spam (count) (message)
 `.sspam` - .sspam (count) (reply_media)
 `.delayspam` - .delayspam (time in second) (count) (text)
 """
