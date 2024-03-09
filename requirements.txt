@@ -13,3 +13,6 @@ git+https://github.com/badmunda98/py-trans.git
 aiohttp
 gtts
 gpytranslate
+yt_dlp
+youtube-search-python==1.6.6
+youtube-search==2.1.2
