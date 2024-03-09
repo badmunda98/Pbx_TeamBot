@@ -8,6 +8,7 @@ from pyrogram.types import Message
 from platform import python_version
 from ... import app, SUDO_USER
 from ... import *
+from PbxTeam.console import*
 
 START_TIME = datetime.utcnow()
 TIME_DURATION_UNITS = (
