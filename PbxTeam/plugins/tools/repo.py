@@ -23,7 +23,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ ᴘʙx ᴛᴇᴀᴍ ʀᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/Pbx_TeamBot/fork"")
+                        "🗡️ ᴘʙx ᴛᴇᴀᴍ ʀᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/Pbx_TeamBot/fork")
                 ],
 
             ]
@@ -43,7 +43,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ ᴘʙx ᴛᴇᴀᴍ ʀᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/Pbx_TeamBot/fork"")
+                        "🗡️ ᴘʙx ᴛᴇᴀᴍ ʀᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/Pbx_TeamBot/fork")
                 ],
 
             ]
@@ -63,7 +63,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗡️ ᴘʙx ᴛᴇᴀᴍ ʀᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/Pbx_TeamBot/fork"")
+                        "🗡️ ᴘʙx ᴛᴇᴀᴍ ʀᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/Pbx_TeamBot/fork")
                 ],
 
             ]
