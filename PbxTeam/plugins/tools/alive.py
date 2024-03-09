@@ -63,6 +63,19 @@ async def ping(client: Client, message: Message):
         f"🇺𝐏★🇹𝐈𝐌𝐄 ❥︎ {uptime}\n"
         f"🇴𝐖𝐍𝐄𝐑 ❥︎ {client.me.mention}\n"
               )
+@app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
+async def ping(client: Client, message: Message):
+    r = await message.reply_text("**🇷𝐄𝐏𝐎 ❥︎**")
+    start = time()
+    current_time = datetime.utcnow()
+    ping = time() - start
+    uptime_sec = (current_time - START_TIME).total_seconds()
+    uptime = await _human_time_duration(int(uptime_sec))
+    await message.delete()
+    await r.edit(
+        f"🇷𝐄𝐏𝐎 ❥︎★\n\n"
+        f"[💫 𝐑ᴇᴘᴏ 💫](https://github.com/Badhacker98/Pbx_TeamBot/fork)\n"
+    )    
 
 
 __NAME__ = "Ping"
