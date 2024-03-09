@@ -7,7 +7,7 @@ from pyrogram.types import *
 from ... import app, SUDO_USER
 from ... import *
 
-from PbxTeam.modules.bad.profile import extract_user
+from PbxTeam.plugins.tools.profile import extract_user
 
 @app.on_message(cdz(["sg"]) & (filters.me | filters.user(SUDO_USER)))
 async def sg(client: Client, message: Message):
