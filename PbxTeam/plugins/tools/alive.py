@@ -85,4 +85,6 @@ Of Your Userbot Server.**
 
 `.alive` - **Check Ping Latency
 Of Your Userbot Server.**
+
+`.repo` - **chek bot repo.**
 """
