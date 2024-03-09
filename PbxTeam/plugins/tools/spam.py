@@ -24,7 +24,7 @@ async def spam(client: Client, message: Message):
         else:
             cid = message.chat.id
             for _ in range(quantity):
-                await xspam.send_message(cid, spam_text)
+                await spam.send_message(cid, spam_text)
                 await asyncio.sleep(0.3)
 
     elif message.reply_to_message:
