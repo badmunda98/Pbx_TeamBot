@@ -25,6 +25,16 @@
             "description": "Enter your bot token here",
             "value": "",
             "required": true
+                    },
+        "SUDO_USERS": {
+            "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+            "required": true,
+            "value": "6566179661"
+        },
+          "OWNER_ID": {
+            "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+            "required": true,
+            "value": "6566179661"
         },
         "STRING_SESSION": {
             "description": "Enter your pyrogram v2 string session here.",
