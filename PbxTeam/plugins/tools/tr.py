@@ -63,13 +63,6 @@ async def pytrans_tr(_, message: Message):
     else:
       await tr_msg.edit(tred_txt)
 
-add_command_help(
-    "",
-    [
-        [".tr", ""],
-    ],
-)
-
 
 __NAME__ = "translate"
 __MENU__ = """
