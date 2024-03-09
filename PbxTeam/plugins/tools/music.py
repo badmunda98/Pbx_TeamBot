@@ -1,6 +1,6 @@
 import asyncio
 from ... import *
-from from PbxTeam.modules.bad.PyroHelpers import ReplyCheck
+from PbxTeam.modules.bad.PyroHelpers import ReplyCheck
 from pyrogram import filters, Client 
 from pyrogram.types import Message
 
