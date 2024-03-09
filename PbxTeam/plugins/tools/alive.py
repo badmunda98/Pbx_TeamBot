@@ -36,7 +36,8 @@ async def alive(client: Client, message: Message):
     ping = time() - start
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    txt = (
+    await message.delete()
+    await r.edit(
         f"❥︎ 𝐀𝐋𝐈𝐕𝐄 ☟︎︎︎\n\n"
         f"🇻𝐄𝐑𝐒𝐈𝐎𝐍 ❥︎ 1.0\n"
         f"🇵𝐈𝐍𝐆 ❥︎ {ping * 1000:.3f}ᴍs\n"
@@ -45,8 +46,6 @@ async def alive(client: Client, message: Message):
         f"🇵𝐘𝐑𝐎𝐆𝐑𝐀𝐌 ❥︎ {__version__}\n"
         f"🇴𝐖𝐍𝐄𝐑 ❥︎ {client.me.mention}"    
     )
-    await message.delete()
-    await message.(caption=txt)
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
