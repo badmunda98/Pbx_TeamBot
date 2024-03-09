@@ -20,3 +20,5 @@ pyfiglet
 pydub
 aiohttp==3.9.1
 pymediainfo
+opencv-python-headless
+bs4
