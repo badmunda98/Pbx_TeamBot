@@ -110,12 +110,7 @@ async def spam_stick(client: Client, message: Message):
     else:
         i = 0
         times = message.command[1]
-
-
-
-      `.spam` - .spam (count) (message)
-`.sspam` - .sspam (count) (reply_media)
-`.delayspam` - .delayspam (time in second) (count) (text)
+        
         if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             for i in range(int(times)):
                 sticker = message.reply_to_message.sticker.file_id
@@ -131,3 +126,10 @@ async def spam_stick(client: Client, message: Message):
                 await client.send_sticker(message.chat.id, sticker)
                 await asyncio.sleep(0.10)
       
+
+__NAME__ = "spam"
+__MENU__ = """
+      `.spam` - .spam (count) (message)
+`.sspam` - .sspam (count) (reply_media)
+`.delayspam` - .delayspam (time in second) (count) (text)
+"""
