@@ -1,9 +1,8 @@
 from pyrogram import filters
 from ... import *
 from pyrogram.types import *
-from Badbot import app
 from gpytranslate import Translator
-
+from ... import app, SUDO_USER
 #.......
 
 trans = Translator()
