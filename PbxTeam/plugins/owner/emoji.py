@@ -2,7 +2,7 @@ from pyrogram import *
 from pyrogram.types import *
 from ... import app, SUDO_USER
 from ... import *
-from PbxTeam.modules.BAD.basic import edit_or_reply, get_text
+from PbxTeam.modules.bad.basic import edit_or_reply, get_text
 
 
 rtext = [
@@ -176,8 +176,7 @@ async def cmoji(client: Client, message: Message):
 
 __NAME__ = "emoji"
 __MENU__ = """
-`..emoji` - **Get All Names
-and Usernames History.**
+`.emoji` - **text convert to emoji .**
 
 **Alternate Command:** '`whois`'
 """
