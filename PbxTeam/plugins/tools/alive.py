@@ -8,7 +8,6 @@ from pyrogram.types import Message
 from platform import python_version
 from ... import app, SUDO_USER
 from ... import *
-from PbxTeam.console import*
 
 START_TIME = datetime.utcnow()
 TIME_DURATION_UNITS = (
@@ -47,7 +46,7 @@ async def alive(client: Client, message: Message):
         f"🇴𝐖𝐍𝐄𝐑 ❥︎ {client.me.mention}"    
     )
     await message.delete()
-    await message.reply_photo(photo=ALIVE_PIC, caption=txt)
+    await message.(caption=txt)
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
