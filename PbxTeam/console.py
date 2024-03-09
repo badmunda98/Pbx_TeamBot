@@ -36,6 +36,7 @@ MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
 OWNER_ID = int(getenv("OWNER_ID", "6898413162"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6898413162").split()))
+ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/09a3948ee0879834f99b5.png")
 
 
 # OPTIONAL VARIABLES
