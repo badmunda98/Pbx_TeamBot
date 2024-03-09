@@ -6,6 +6,7 @@ import re
 import asyncio
 import time
 from ... import *
+from ... import app, SUDO_USER
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
