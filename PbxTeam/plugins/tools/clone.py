@@ -50,7 +50,7 @@ async def revert(client: Client, message: Message):
     await message.edit("`I am back!`")
 
 
-__NAME__ = "clone"
+__NAME__ = "✯ ᴄʟᴏɴᴇ ✯"
 __MENU__ = """
 `.clone` - **reply_message for clone I'd**
 `.unclone` - **reply_message to cloner to get back**
