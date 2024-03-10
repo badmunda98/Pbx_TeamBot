@@ -193,7 +193,7 @@ async def style(c, m):
     except:
         pass
 
-__NAME__ = "font"
+__NAME__ = "✯ ғᴏɴᴛ ✯"
 __MENU__ = """
 `.font` - ***:* ᴄᴏɴᴠᴇʀᴛs sɪᴍᴩʟᴇ ᴛᴇxᴛ ᴛᴏ ʙᴇᴀᴜᴛɪғᴜʟ ᴛᴇxᴛ ʙʏ ᴄʜᴀɴɢɪɴɢ ɪᴛ's ғᴏɴᴛ.**
 `.write` - **ᴍᴀᴋᴇs ғɪɢʟᴇᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ Example:\n\n`/figlet BAD PAPA**
