@@ -119,7 +119,7 @@ async def sudo_users_list(client, message):
         await message.edit(text)
 
 
-__NAME__ = "Sudo"
+__NAME__ = "✯ sᴜᴅᴏ ✯"
 __MENU__ = f"""
 **🥀 Add Or Remove Sudo Users
 From Your Userbot ✨...**
