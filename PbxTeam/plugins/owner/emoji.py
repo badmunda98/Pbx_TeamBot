@@ -174,7 +174,7 @@ async def cmoji(client: Client, message: Message):
     
 
 
-__NAME__ = "emoji"
+__NAME__ = "✯ ᴇᴍᴏᴊɪ ✯"
 __MENU__ = """
 `.emoji` - **.emoji (name)**
 `.love` - **.cmoji (emoji or text) (name)**
