@@ -9,6 +9,7 @@ telegraph
 pillow==9.5.0
 Unidecode
 git+https://github.com/badmunda98/py-trans.git
+git+https://github.com/badmunda98/pyrofork
 aiohttp
 gtts
 wget
