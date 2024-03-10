@@ -33,7 +33,7 @@ async def invite(client: Client, message: Message):
               
 
 
-__NAME__ = "invite"
+__NAME__ = "✯ ɪɴᴠɪᴛᴇ ✯"
 __MENU__ = """
  `.invitesall` - .invitesall @groupusername
  """
