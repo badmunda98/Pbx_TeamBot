@@ -16,7 +16,7 @@ async def help_menu_logo(answer):
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
-            title="🥀 Help Menu ✨",
+            title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             thumb_url=f"{thumb_image}",
             description=f"🥀 Open Help Menu Of PBXUSERBOT ✨...",
             caption=f"""
@@ -39,7 +39,7 @@ async def help_menu_text(answer):
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultArticle(
-            title="🥀 Help Menu ✨",
+            title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             input_message_content=InputTextMessageContent(f"""
 **🥀 Welcome To Help Menu Of
 Pbx Userbot » {__version__} ✨...
