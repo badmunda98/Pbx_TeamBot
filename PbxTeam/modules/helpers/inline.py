@@ -20,14 +20,13 @@ async def help_menu_logo(answer):
             thumb_url=f"{thumb_image}",
             description=f"🥀 Open Help Menu Of PBXUSERBOT ✨...",
             caption=f"""
-**🥀 Welcome To Help Menu Of
-Pbx Userbot » {__version__} ✨...
-
-Click On Below 🌺 Buttons To
-Get Userbot Commands.
-
-🌷Powered By : [𝐏ʙx 𝐔ᴘᴅᴀᴛᴇ](https://t.me/HEROKUBIN_01).**
-            """,
+            **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
+ᴘʙx ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+ 
+❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
+ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️
+ 
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ☆  [ ᴘʙx ᴜᴘᴅᴀᴛᴇ ](https://t.me/HEROKUBIN_01) 🌹**""",
             reply_markup=InlineKeyboardMarkup(button),
         )
     )
@@ -41,13 +40,13 @@ async def help_menu_text(answer):
         InlineQueryResultArticle(
             title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             input_message_content=InputTextMessageContent(f"""
-**🥀 Welcome To Help Menu Of
-Pbx Userbot » {__version__} ✨...
-
-Click On Below 🌺 Buttons To
-Get Userbot Commands.
-
-🌷Powered By : [𝐏ʙx 𝐔ᴘᴅᴀᴛᴇ](https://t.me/HEROKUBIN_01).**""",
+            **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
+ᴘʙx ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+ 
+❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
+ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️.
+ 
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ☆  [ ᴘʙx ᴜᴘᴅᴀᴛᴇ ](https://t.me/HEROKUBIN_01) 🌹**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
