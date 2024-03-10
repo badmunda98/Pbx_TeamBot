@@ -426,7 +426,7 @@ async def tmute_command_handler(client, message):
         await message.reply_text(msg_text)
 
 
-__NAME__ = "admin"
+__NAME__ = "✯ ᴀᴅᴍɪɴ ✯"
 __MENU__ = """
 `.ban` ** ban  user **
 `.unban` **unban l user**
