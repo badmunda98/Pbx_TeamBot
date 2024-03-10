@@ -196,7 +196,7 @@ async def view_pfp(client: Client, message: Message):
 
 
 
-__NAME__ = "profile"
+__NAME__ = "✯ ᴘʀᴏғɪʟᴇ ✯"
 __MENU__ = """
 `.block` **to block someone on telegram**
 `.unblock` **to unblock someone on telegram**
