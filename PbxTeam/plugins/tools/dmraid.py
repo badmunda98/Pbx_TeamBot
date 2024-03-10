@@ -101,7 +101,7 @@ async def dmspam(spam: Client, e: Message):
 
 
 
-__NAME__ = "dm"
+__NAME__ = "✯ ᴅᴍ ʀᴀɪᴅs ✯"
 __MENU__ = """
 `.dmraid` - **Check Ping Latency
 Of Your Userbot Server.**
