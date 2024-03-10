@@ -135,7 +135,7 @@ async def chatinfo_handler(client: Client, message: Message):
 
 
 
-__NAME__ = "info"
+__NAME__ = "✯ ɪɴғᴏ ✯"
 __MENU__ = """
 `.info` **get telegram user info with full description.**
 `.chatinfo` **get group info with full description.**
