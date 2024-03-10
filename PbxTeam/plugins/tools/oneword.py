@@ -28,7 +28,7 @@ async def alt_lol(xspam: Client, message: Message):
 
 
 
-@app.on_message(cdz(["gay"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["randii"])  & (filters.me | filters.user(SUDO_USER)))
 async def alt_mkc(xspam: Client, message: Message):    
     chat_id = message.chat.id
     RUSH = None
