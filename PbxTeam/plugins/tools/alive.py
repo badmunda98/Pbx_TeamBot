@@ -40,12 +40,12 @@ async def alive(client: Client, message: Message):
     await message.delete()
     await r.edit(
         f"❥︎ 𝐀𝐋𝐈𝐕𝐄 ☟︎︎︎\n\n"
-        f"🇻𝐄𝐑𝐒𝐈𝐎𝐍 ❥︎ 1.0\n"
-        f"🇵𝐈𝐍𝐆 ❥︎ {ping * 1000:.3f}ᴍs\n"
-        f"🇺𝐏★🇹𝐈𝐌𝐄 ❥︎ {uptime}\n"
-        f"🇵𝐘𝐓𝐇𝐎𝐍 ❥︎ {python_version()}`\n"
-        f"🇵𝐘𝐑𝐎𝐆𝐑𝐀𝐌 ❥︎ {__version__}\n"
-        f"🇴𝐖𝐍𝐄𝐑 ❥︎ {client.me.mention}"    
+        f"ᴠᴇʀsɪᴏɴ★ 1.0\n"
+        f"ᴘɪɴɢ ★ {ping * 1000:.3f}ᴍs\n"
+        f"ᴜᴘ ★ᴛɪᴍᴇ ★ {uptime}\n"
+        f"ᴘʏᴛʜᴏɴ ★ {python_version()}`\n"
+        f"ᴘʏʀᴏɢʀᴀᴍ ★ {__version__}\n"
+        f"ᴏᴡɴᴇʀ ★ {client.me.mention}"    
     )
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
