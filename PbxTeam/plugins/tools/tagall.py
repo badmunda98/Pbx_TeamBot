@@ -59,4 +59,13 @@ __NAME__ = "tagall"
 __MENU__ = """
 `.utag` - **.utag (message) - to start usertagger**
 `.cancel` - **to stop tagger**
+`.tagall` - **.tagall - to start tagall**
+`.tagallstop` - **to stop tagger**
+`.vctag` - **voice msg tagall**
+`.vctagstop` - **to stop tagger**
+.gntag` - **good night msg tagall**
+`.gntagstop` - **to stop tagger**
+`.gmtag` - **good morning tagall**
+`.gmtagstop` - **to stop tagger**
+
 """
