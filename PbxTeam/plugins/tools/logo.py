@@ -56,7 +56,7 @@ async def logo(app, msg: Message):
     await msg.reply_photo(
         photo=f"{req}")
   
-__NAME__ = "logo"
+__NAME__ = "✯ ʟᴏɢᴏ ✯"
 __MENU__ = """
 `.logo` - ***:* .logo Bad.**
 `.animelogo` - **.animelogo Bad**
