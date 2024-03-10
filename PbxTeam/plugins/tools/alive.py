@@ -58,10 +58,10 @@ async def ping(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f"★🇦★🇱𝐄★🇨𝐇𝐀𝐊★🇲𝐀𝐈𝐍★🇦★🇬𝐈𝐀 ★\n\n"
-        f"🇵𝐈𝐍𝐆 ❥︎ {ping * 1000:.3f}ᴍs\n"
-        f"🇺𝐏★🇹𝐈𝐌𝐄 ❥︎ {uptime}\n"
-        f"🇴𝐖𝐍𝐄𝐑 ❥︎ {client.me.mention}\n"
+        f"★ 𝗣𝗢𝗡𝗚 ★\n\n"
+        f"ᴘɪɴɢ ★ {ping * 1000:.3f}ᴍs\n"
+        f"ᴜᴘ ★ ᴛɪᴍᴇ ★ {uptime}\n"
+        f"ᴏᴡɴᴇʀ ★ {client.me.mention}\n"
               )
 @app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
