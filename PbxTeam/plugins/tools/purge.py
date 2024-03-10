@@ -84,7 +84,10 @@ async def purgeme(client: Client, message: Message):
 
 __NAME__ = "purge"
 __MENU__ = """
-`.del` - ****to delete someone's message.**.**
+`.del` - **to delete someone's message.**
 `.purge` - **reply to all messages from your replied**
 `.purgeme` - **purgeme [count]", "to delete your messages only.**
+`.blockword` - **word has been added to the blacklist**
+`.unblockblockword` - **word has been removed from the blacklist.**
+
 """
