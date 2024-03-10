@@ -46,5 +46,6 @@ __NAME__ = "ai"
 __MENU__ = """
 `.ai` - **Example:.chatgpt Where is Punjab?.**
 `.cc` - **Some Live Generated CC.**
+`.image` - **give image name for search .**
 `.rmbg` - **Reply only to a photo to Remove it's Background.**
 """
