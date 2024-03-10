@@ -66,7 +66,7 @@ def resize_image(image):
 
 
 # <=================================================== HELP ====================================================>
-__NAME__ = "telegraph"
+__NAME__ = "✯ ᴛᴇʟᴇɢʀᴀᴘʜ ✯"
 __MENU__ = """
 `.tgm` - **pic convert to link**
 `.ss` - **Send a notification in a private chat (not secret) to annoy or troll your friends.**
