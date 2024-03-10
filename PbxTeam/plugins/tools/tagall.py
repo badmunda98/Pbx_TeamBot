@@ -64,8 +64,8 @@ __MENU__ = """
 `.vctag` - **voice msg tagall**
 `.vctagstop` - **to stop tagger**
 .gntag` - **good night msg tagall**
-`.gntagstop` - **to stop tagger**
+`.gntop` - **to stop tagger**
 `.gmtag` - **good morning tagall**
-`.gmtagstop` - **to stop tagger**
+`.gmstop` - **to stop tagger**
 
 """
