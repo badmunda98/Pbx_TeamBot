@@ -1292,7 +1292,7 @@ async def santet(client: Client, message: Message):
 
 
 
-__NAME__ = "animation"
+__NAME__ = "✯ ᴀɴɪᴍᴀᴛɪᴏɴ ✯"
 __MENU__ = """
 `.soon` - **soon....**
 
