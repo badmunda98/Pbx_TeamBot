@@ -72,7 +72,7 @@ async def gucast(client: Client, message: Message):
     await text.edit_text(f"**Successfully Sent Message To** `{done}` **chat, Failed to Send Message To** `{error}` **chat**")
           
 
-__NAME__ = "broadcast"
+__NAME__ = "✯ ʙʀᴏᴀᴅᴄᴀsᴛ ✯"
 __MENU__ = """
 `.gcast` [text/reply] - **Sending Global Broadcast messages to all groups.**
 `.gucast` [text/reply] - **Sending Global Broadcast messages to all incoming Private Massages.**       
