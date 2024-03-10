@@ -33,7 +33,7 @@ async def get_weather(bot: Client, message: Message):
             await message.edit(weather, parse_mode=enums.ParseMode.MARKDOWN)
 
 
-__NAME__ = "weather"
+__NAME__ = "✯ ᴡᴇᴀᴛʜᴇʀ ✯"
 __MENU__ = """
 `.weather` - **Gets weather information for provided location..**
 """
