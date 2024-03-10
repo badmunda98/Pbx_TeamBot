@@ -1,6 +1,6 @@
 # Powered By // @ll_THE_BAD_BOT_ll //
 
-__NAME__ = "Global"
+__NAME__ = "✯ ɢʟᴏʙᴀʟ ✯"
 __MENU__ = """
 **Reply On Target Users Messages
 To Globally Tapped.**
