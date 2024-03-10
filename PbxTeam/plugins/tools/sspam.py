@@ -133,4 +133,6 @@ __MENU__ = """
       `.pspam` - .spam (count) (message)
 `.sspam` - .sspam (count) (reply_media)
 `.delayspam` - .delayspam (time in second) (count) (text)
+   `.randi .randii` - .one word spam start
+      `.stop` - . one word spam stop
 """
