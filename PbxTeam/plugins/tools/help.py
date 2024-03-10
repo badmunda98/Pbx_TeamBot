@@ -56,19 +56,19 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
-**🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
-
-Click On Below 🌺 Buttons To
-Get Userbot Commands.
-
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**
+**💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
+ᴘʙx ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+ 
+❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
+ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️.
+ 
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ☆  [ ᴘʙx ᴜᴘᴅᴀᴛᴇ ](https://t.me/HEROKUBIN_01) 🌹**
 """
     
     if plug_match:
         plugin = plug_match.group(1)
         text = (
-            "**🥀 Welcome To Help Menu Of:\n♨️ Plugin :** {}\n".format(
+            "****💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ \n♨️ ᴘʟᴜɢɪɴ ✨ ** {}\n".format(
                 plugs[plugin].__NAME__
             )
             + plugs[plugin].__MENU__
