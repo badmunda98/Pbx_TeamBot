@@ -35,6 +35,11 @@
             "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
             "required": true,
             "value": "6566179661"
+              },
+          "OWNER_USERNAME": {
+            "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+            "required": true,
+            "value": "ll_BAD_BBY_ll"
         },
         "STRING_SESSION": {
             "description": "Enter your pyrogram v2 string session here.",
