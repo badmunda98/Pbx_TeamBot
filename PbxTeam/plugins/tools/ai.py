@@ -40,3 +40,10 @@ async def chat_gpt(bot, message):
                 await message.reply_text("Error accessing the response.")
     except Exception as e:
         await message.reply_text(f"**á´‡Ê€Ê€á´Ê€: {e} ")
+
+
+__NAME__ = "ai"
+__MENU__ = """
+`.ai` - **Example:.chatgpt Where is Punjab?.**
+
+"""
