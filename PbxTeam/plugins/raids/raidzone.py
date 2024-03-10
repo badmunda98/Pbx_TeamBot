@@ -1,6 +1,6 @@
 # Powered By // @ll_THE_BAD_BOT_ll //
 
-__NAME__ = "Raids"
+__NAME__ = "✯ ʀᴀɪᴅs ✯"
 __MENU__ = """
 **Reply On Target Users Messages
 To Activate Or Deactivate.**
