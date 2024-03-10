@@ -42,7 +42,7 @@ async def translate(_, message) -> None:
     
     
     
-    __NAME__ = "translate"
+    __NAME__ = "✯ ᴛʀᴀɴsʟᴀᴛᴇ ✯"
 __MENU__ = """
 `.tr` - **Translate some text by give a text or reply that text/caption.**
 
