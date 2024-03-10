@@ -159,7 +159,7 @@ async def drawText(image_path, text):
     return webp_file
 
 
-__NAME__ = "mmf"
+__NAME__ = "✯ ᴍᴍғ ✯"
 __MENU__ = """
 `.mmf` - **Make a message into a sticker .**
 
