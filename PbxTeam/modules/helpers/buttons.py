@@ -76,7 +76,7 @@ def paginate_plugins(page_n, plugin_dict, prefix, chat=None):
                     callback_data="{}_prev({})".format(prefix, modulo_page),
                 ),
                 EqInlineKeyboardButton(
-                    "Owner",
+                    "✯ ᴏᴡɴᴇʀ ✯",
                     url=f"tg://openmessage?user_id={app.me.id}",
                 ),
                 EqInlineKeyboardButton(
