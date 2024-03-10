@@ -23,3 +23,5 @@ pymediainfo
 opencv-python-headless
 bs4
 humanize
+aiofiles
+requests==2.31.0
