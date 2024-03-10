@@ -49,7 +49,7 @@ async def stats(client: Client, message: Message):
         )
     )
 
-__NAME__ = "stats"
+__NAME__ = "✯ sᴛᴀᴛs ✯"
 __MENU__ = """
 `.stats` - **to check your account status.**
 """
