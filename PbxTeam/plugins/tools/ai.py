@@ -45,5 +45,5 @@ async def chat_gpt(bot, message):
 __NAME__ = "ai"
 __MENU__ = """
 `.ai` - **Example:.chatgpt Where is Punjab?.**
-
+`.cc` - **Some Live Generated CC.**
 """
