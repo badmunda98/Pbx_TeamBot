@@ -46,7 +46,7 @@ async def logo(app, msg: Message):
     await msg.reply_photo(
         photo=f"{req}")
 
-    @app.on_message(cdz(["animelogo"]) & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["animelogo"]) & (filters.me | filters.user(SUDO_USER)))
 async def logo(app, msg: Message):
     if len(msg.command) == 1:
        return await msg.reply_text("Usage:\n\n /animelogo Bad")
