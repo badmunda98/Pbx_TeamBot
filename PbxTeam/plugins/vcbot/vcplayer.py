@@ -1,6 +1,6 @@
 # Powered By // @ll_THE_BAD_BOT_ll //
 
-__NAME__ = "VcPlayer"
+__NAME__ = "✯ ᴠᴄ ᴘʟᴀʏᴇʀ ✯"
 __MENU__ = """
 **Set Stream Chat And Play From
 Anywhere You Want.**
