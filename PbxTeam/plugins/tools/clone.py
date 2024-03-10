@@ -3,7 +3,7 @@ from pyrogram import *
 from pyrogram.types import *
 from ... import app, SUDO_USER
 from ... import *
-from PbxTeam.modules.bad.basic import edit_or_reply, get_text
+from PbxTeam.modules.bad.basic import edit_or_reply, get_text, get_user
 
 
 OWNER = os.environ.get("OWNER", None)
