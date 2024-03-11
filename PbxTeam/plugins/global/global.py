@@ -250,7 +250,7 @@ async def gmutelist(client: Client, message: Message):
     return await Man.edit(gmute_list)
 
 
-@app.on_message(cdz((filters.incoming & filters.group))
+@app.on_message(cdz((filters.incoming & filters.group)))
 async def globals_check(client: Client, message: Message):
     if not message:
         return
