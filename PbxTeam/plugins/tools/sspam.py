@@ -127,7 +127,7 @@ async def spam_stick(client: Client, message: Message):
                 await asyncio.sleep(0.10)
       
 
-__NAME__ = "✯ sᴘᴀᴍ ✯"
+__NAME__ = "sᴘᴀᴍ"
 __MENU__ = """
       `.spam` - .spam (count) (message)
       `.pspam` - .spam (count) (message)
