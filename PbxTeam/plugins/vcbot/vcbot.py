@@ -1,6 +1,6 @@
 # Powered By // @ll_THE_BAD_BOT_ll //
 
-__NAME__ = "✯ ᴠᴄ ʙᴏᴛ ✯"
+__NAME__ = "ᴠᴄ ʙᴏᴛ"
 __MENU__ = """
 **An Advanced High Quality Music
 And Video Player System.**
