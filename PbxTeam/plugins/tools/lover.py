@@ -11,12 +11,13 @@ from pyrogram.enums import *
 from ... import app, SUDO_USER
 from ... import *
 from PbxTeam.modules.bad.mongo import get_couple, save_couple
+
 def dt():
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y %H:%M")
     dt_list = dt_string.split(" ")
     return dt_list
-    
+
 
 def dt_tom():
     a = (
@@ -36,11 +37,11 @@ today = str(dt()[0])
 async def ctest(_, message):
     cid = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
-        return await message.reply_text("This command only works in groups.")
+        return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘs.")
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
-         msg = await message.reply_text("Generating Couples Image...")
+         msg = await message.reply_text("ɢᴇɴᴇʀᴀᴛɪɴɢ ᴄᴏᴜᴘʟᴇs ɪᴍᴀɢᴇ...")
          #GET LIST OF USERS
          list_of_users = []
 
@@ -74,16 +75,16 @@ async def ctest(_, message):
 
          img = Image.open("PbxTeam/resource/font/cppic.png")
 
-         img1 = img1.resize((437,437))
-         img2 = img2.resize((437,437))
+         img1 = img1.resize((238,238))
+         img2 = img2.resize((238,238))
 
          mask = Image.new('L', img1.size, 0)
          draw = ImageDraw.Draw(mask) 
-         draw.ellipse((0, 0) + img1.size, fill=255)
+         draw.ellipse((0, 0) + img1.size, fill=220)
 
          mask1 = Image.new('L', img2.size, 0)
          draw = ImageDraw.Draw(mask1) 
-         draw.ellipse((0, 0) + img2.size, fill=255)
+         draw.ellipse((0, 0) + img2.size, fill=220)
 
 
          img1.putalpha(mask)
@@ -91,8 +92,8 @@ async def ctest(_, message):
 
          draw = ImageDraw.Draw(img)
 
-         img.paste(img1, (116, 160), img1)
-         img.paste(img2, (789, 160), img2)
+         img.paste(img1, (45, 75), img1)
+         img.paste(img2, (463, 75), img2)
 
          img.save(f'test_{cid}.png')
     
