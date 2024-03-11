@@ -78,7 +78,7 @@ async def ping(client: Client, message: Message):
     )    
 
 
-__NAME__ = "✯ ᴀᴄᴛɪᴠᴇ ✯"
+__NAME__ = "ᴀᴄᴛɪᴠᴇ"
 __MENU__ = """
 `.ping` - **Check Ping Latency
 Of Your Userbot Server.**
