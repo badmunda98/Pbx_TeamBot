@@ -63,8 +63,8 @@ async def del_pbi_raid(client, message):
                 "**🤣 How Fool, When I Activate Pbx Raid On Your ID❓**"
             )
         
-        lraid = await del_pbiraid_user(user_id)
-        if lraid:
+        fraid = await del_fuckraid_user(user_id)
+        if fraid:
             return await aux.edit(
                 "**🤖 Successfully Removed Pbx Raid From This User.**"
             )
