@@ -25,8 +25,8 @@ async def add_pbi_raid(client, message):
                 "**🤣 How Fool, You Want To Activate Pbx Raid On Your Own ID❓**"
             )
         
-        praid = await add_pbiraid_user(user_id)
-        if praid:
+        lraid = await add_pbiraid_user(user_id)
+        if lraid:
             return await aux.edit(
                 "**🤖 Successfully Added Pbx Raid On This User.**"
             )
