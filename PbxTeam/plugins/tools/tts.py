@@ -13,7 +13,7 @@ def text_to_speech(client, message):
     client.send_audio(message.chat.id, 'ᴮᴬᴰ ᴬᵁᴰᴵᴼ.mp3')
   
 
-__NAME__ = "✯ ᴛᴛs ✯"
+__NAME__ = "ᴛᴛs"
 __MENU__ = """
 `.tts` - **text to speech .**
 
