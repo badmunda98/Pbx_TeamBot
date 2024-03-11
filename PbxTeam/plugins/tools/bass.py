@@ -86,7 +86,7 @@ def apply_bass_boost(audio_path):
 
     return boosted_audio_path
 
-__NAME__ = "✯ ʙᴀss ✯"
+__NAME__ = "ʙᴀss"
 __MENU__ = """
 `.bass` - **give you aa extra bass boosted audio..**
 `.dj` - **give you extra &amp; loud audio..**
