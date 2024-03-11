@@ -31,7 +31,7 @@ async def _carbon(client, message):
     carbon.close()
      
 
-__NAME__ = "✯ ᴄᴀʀʙᴏɴ ✯"
+__NAME__ = "ᴄᴀʀʙᴏɴ"
 __MENU__ = """
 `.carbon` - **Carbonize text with default settings.**
 `.paste` - **txt,file type on carbon paper .**
