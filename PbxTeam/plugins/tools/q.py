@@ -39,7 +39,7 @@ async def quotly(client: Client, message: Message):
 
 
 
-__NAME__ = "✯ ǫᴜᴏʟᴛʏ ✯"
+__NAME__ = "ǫᴜᴏʟᴛʏ"
 __MENU__ = """
 `.q` - **Make a message into a sticker with the custom background color given.**
 
