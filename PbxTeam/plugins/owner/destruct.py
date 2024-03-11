@@ -21,7 +21,7 @@ async def self_media(client, message):
         return
 
 
-__NAME__ = "✯ sᴇʟғ ✯"
+__NAME__ = "sᴇʟғ"
 __MENU__ = f"""
 **🥀 Download And Save Self\n» Destructed Photo Or Video
 To Your Saved Message ✨**
