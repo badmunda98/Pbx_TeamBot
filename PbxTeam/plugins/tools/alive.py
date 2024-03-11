@@ -50,7 +50,7 @@ async def alive(client: Client, message: Message):
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
-    r = await message.reply_text("**🇵𝐎𝐍𝐆**")
+    r = await message.reply_text("**𝐏𝐎𝐍𝐆**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -65,7 +65,7 @@ async def ping(client: Client, message: Message):
               )
 @app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
-    r = await message.reply_text("**🇷𝐄𝐏𝐎 ❥︎**")
+    r = await message.reply_text("**𝐑𝐄𝐏𝐎 ❥︎**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -73,7 +73,7 @@ async def ping(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f"🇷𝐄𝐏𝐎 ❥︎★\n\n"
+        f"𝐑𝐄𝐏𝐎 ❥︎★\n\n"
         f"[💫 𝐑ᴇᴘᴏ 💫](https://github.com/Badhacker98/Pbx_TeamBot/fork)\n"
     )    
 
