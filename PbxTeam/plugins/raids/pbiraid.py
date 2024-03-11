@@ -22,16 +22,16 @@ async def add_pbi_raid(client, message):
 
         if user_id == message.from_user.id:
             return await aux.edit(
-                "**🤣 How Fool, You Want To Activate Love Raid On Your Own ID❓**"
+                "**🤣 How Fool, You Want To Activate Pbx Raid On Your Own ID❓**"
             )
         
-        lraid = await add_loveraid_user(user_id)
+        lraid = await add_pbiraid_user(user_id)
         if lraid:
             return await aux.edit(
-                "**🤖 Successfully Added Love Raid On This User.**"
+                "**🤖 Successfully Added Pbx Raid On This User.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Love Raid Already Active On This User❗**"
+            "**🤖 Hey, Pbx Raid Already Active On This User❗**"
         )
     except Exception as e:
         print("Error: `{e}`")
@@ -60,16 +60,16 @@ async def del_pbi_raid(client, message):
         
         if user_id == message.from_user.id:
             return await aux.edit(
-                "**🤣 How Fool, When I Activate Love Raid On Your ID❓**"
+                "**🤣 How Fool, When I Activate Pbx Raid On Your ID❓**"
             )
         
-        lraid = await del_loveraid_user(user_id)
+        lraid = await del_pbiraid_user(user_id)
         if lraid:
             return await aux.edit(
-                "**🤖 Successfully Removed Love Raid From This User.**"
+                "**🤖 Successfully Removed Pbx Raid From This User.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Love Raid Not Active On This User❗**"
+            "**🤖 Hey, Pbx Raid Not Active On This User❗**"
         )
     except Exception as e:
         print("Error: `{e}`")
