@@ -7,9 +7,6 @@ from  PbxTeam.modules.bad.basic import edit_or_reply
 from  PbxTeam.modules.bad.PyroHelpers import get_ub_chats
 from  PbxTeam.modules.bad.misc import extract_user, extract_user_and_reason
 
-from .help import add_command_help
-
-
 def globals_init():
     try:
         global sql, sql2
