@@ -14,7 +14,7 @@ async def restart(client: Client, message: Message):
     os.system(f"kill -9 {os.getpid()} && python3 -m PbxTeam")
   
 
-__NAME__ = "✯ ʀᴇsᴛᴀʀᴛ ✯"
+__NAME__ = "ʀᴇsᴛᴀʀᴛ"
 __MENU__ = """
 `.restart` **heroku bot restart **
 `.upload` **Upload the file to telegram from the given system file path**
