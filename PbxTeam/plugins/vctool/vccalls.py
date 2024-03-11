@@ -99,7 +99,7 @@ async def discard_video_chat(client, message):
 
 
 
-__NAME__ = "✯ ᴠᴄ ✯"
+__NAME__ = "ᴠᴄ"
 __MENU__ = """
 **Start or End VC in Your Channel
 Or Group By Simple Commands.**
