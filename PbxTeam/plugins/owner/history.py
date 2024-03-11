@@ -45,7 +45,7 @@ async def sg(client: Client, message: Message):
 
 
 
-__NAME__ = "✯ ʜɪsᴛᴏʀʏ ✯"
+__NAME__ = "ʜɪsᴛᴏʀʏ"
 __MENU__ = """
 `.sg` - **Get All Names
 and Usernames History.**
