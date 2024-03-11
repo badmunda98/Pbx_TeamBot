@@ -134,5 +134,7 @@ __MENU__ = """
 `.sspam` - .sspam (count) (reply_media)
 `.delayspam` - .delayspam (time in second) (count) (text)
    `.randi .randii` - .one word spam start
+   `.pbiraid .pbiraid` - .Pbiraid start (count) (message)
+   .dmpbiraid .dmpbiraid` - .dmPbiraid start (count) (message)
       `.stop` - . one word spam stop
 """
