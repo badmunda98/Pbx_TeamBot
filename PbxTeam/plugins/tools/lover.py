@@ -138,3 +138,10 @@ async def ctest(_, message):
       os.remove(f"test_{cid}.png")
     except Exception:
        pass
+
+
+# Powered By // @ll_THE_BAD_BOT_ll //
+__NAME__ = "ᴄᴏᴜᴘʟᴇs"
+__MENU__ = """
+`.couples` - Get Todays Couples Of The Group In Interactive View.
+"""
