@@ -1,7 +1,4 @@
-try:
-    from PbxTeam.modules.bad.BAD.SQL import BASE, SESSION
-except ImportError:
-    raise AttributeError
+
 
 from sqlalchemy import Column, String
 
