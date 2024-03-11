@@ -55,7 +55,7 @@ async def cancel_spam(client: Client, message: Message):
         return await message.edit("**Cancelled.**")
 
 
-__NAME__ = "✯ ᴛᴀɢᴀʟʟ ✯"
+__NAME__ = "ᴛᴀɢᴀʟʟ"
 __MENU__ = """
 `.utag` - **.utag (message) - to start usertagger**
 `.cancel` - **to stop tagger**
