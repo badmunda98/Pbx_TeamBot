@@ -244,7 +244,7 @@ async def ytmusic(client, message: Message):
             os.remove(files)
 
 
-__NAME__ = "✯ ᴅᴏᴡɴʟᴏᴀᴅ ✯"
+__NAME__ = "ᴅᴏᴡɴʟᴏᴀᴅ"
 __MENU__ = """
 `.song` - , **Search songs and download..**
 `.ig .reel` - **link to download ig reel**
