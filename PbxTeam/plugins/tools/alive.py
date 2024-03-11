@@ -77,6 +77,20 @@ async def ping(client: Client, message: Message):
         f"[💫 𝐑ᴇᴘᴏ 💫](https://github.com/Badhacker98/Pbx_TeamBot/fork)\n"
     )    
 
+@app.on_message(cdz(["allrepo"])  & (filters.me | filters.user(SUDO_USER)))
+async def ping(client: Client, message: Message):
+    r = await message.reply_text("**𝐀𝐋𝐋 𝐑𝐄𝐏𝐎 ❥︎**")
+    start = time()
+    current_time = datetime.utcnow()
+    ping = time() - start
+    uptime_sec = (current_time - START_TIME).total_seconds()
+    uptime = await _human_time_duration(int(uptime_sec))
+    await message.delete()
+    await r.edit(
+        f"𝐀𝐋𝐋 𝐑𝐄𝐏𝐎 ❥︎★\n\n"
+        f"[💫𝐀ʟʟ 𝐑ᴇᴘᴏ 💫](https://github.com/Badhacker98/Pbx_TeamBot/fork)\n"
+    )    
+
 
 __NAME__ = "ᴀᴄᴛɪᴠᴇ"
 __MENU__ = """
@@ -87,4 +101,5 @@ Of Your Userbot Server.**
 Of Your Userbot Server.**
 
 `.repo` - **chek bot repo.**
+`.allrepo` - **chek bot repo.**
 """
