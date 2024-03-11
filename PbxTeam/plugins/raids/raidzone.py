@@ -13,5 +13,8 @@ To Activate Or Deactivate.**
 
 `.lr` - Activate Love Raid.
 `.dlr` - De-Activate Love Raid.
+
+`.pbr` - Activate Pbi Chat Raid.
+`.dpbr` - De-Activate Pbi Chat Raid.
 """
 
