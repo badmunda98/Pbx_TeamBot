@@ -1,4 +1,4 @@
-from PbxTeam.console import  SUDO_USERS, OWNER_ID, OWNER_USERNAME
+from PbxTeam.console import  SUDO_USERS, OWNER_ID, OWNER_USERNAME, MONGO_DB_URL
 from aiohttp import ClientSession
 
 # Ai-Userbot Version
@@ -7,6 +7,7 @@ __version__ = "v2.1.0"
 spam_chats = []
 aiosession = ClientSession()
 SUDO_USER = SUDO_USERS
+MONGO_DB_URL = MONGO_DB_URL
 OWNER_USERNAME = OWNER_USERNAME
 SUDO_USERS.append(OWNER_ID)
 
