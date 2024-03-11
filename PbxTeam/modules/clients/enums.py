@@ -79,7 +79,7 @@ async def run_async_enums():
             cruser = await is_chatraid_user(user_id)
             lruser = await is_loveraid_user(user_id)
             fruser = await is_fuckraid_user(user_id)
-            lruser = await is_pbiraid_user(user_id)
+            pruser = await is_pbiraid_user(user_id)
         except Exception as e:
             print(f"Error: {e}")
             return
@@ -111,7 +111,7 @@ async def run_async_enums():
                 # print(f"Error: {e}")
                 pass
                 if lruser:
-            fraid = random.choice(raidzone.PBIRAID)
+            praid = random.choice(raidzone.PBIRAID)
             try:
                 await app.send_chat_action(
                     chat_id,
