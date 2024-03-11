@@ -30,5 +30,9 @@ async def figlet_handler(Client, query: CallbackQuery):
       await query.message.edit_text(f"ʜᴇʀᴇ ɪs ʏᴏᴜʀ ғɪɢʟᴇᴛ :\n<pre>{kul_text}</pre>", reply_markup=keyboard)
   except Exception as e : 
       await message.reply(e)
-__mod_name__ = "Fɪɢʟᴇᴛ" 
-                                     
+
+
+__NAME__ = "Fɪɢʟᴇᴛ"
+__MENU__ = """
+`.write` - **text to figlet.**
+"""
