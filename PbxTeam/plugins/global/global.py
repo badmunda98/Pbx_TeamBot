@@ -12,12 +12,12 @@ def globals_init():
         global sql, sql2
         from importlib import import_module
 
-        sql = import_module("ProjectMan.helpers.SQL.gban_sql")
-        sql2 = import_module("ProjectMan.helpers.SQL.gmute_sql")
+        sql = import_module("PbxTeam.modules.bad.BAD.gban_sql")
+        sql2 = import_module("PbxTeam.modules.bad.BAD.gmute_sql")
     except Exception as e:
         sql = None
         sql2 = None
-        LOGS.warn("Unable to run GBan and GMute command, no SQL connection found")
+        LOGGER.warn("Unable to run GBan and GMute command, no SQL connection found")
         raise e
 
 
