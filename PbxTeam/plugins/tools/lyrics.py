@@ -60,7 +60,7 @@ async def send_lyrics(bot: Client, message: Message):
 
 
 
-__NAME__ = "✯ ʟʏʀɪᴄs ✯"
+__NAME__ = "ʟʏʀɪᴄs"
 __MENU__ = """
 `.l` - **Search lyrics and send..**
 
