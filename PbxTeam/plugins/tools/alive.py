@@ -88,7 +88,7 @@ async def ping(client: Client, message: Message):
     await message.delete()
     await r.edit(
         f"𝐀𝐋𝐋 𝐑𝐄𝐏𝐎 ❥︎★\n\n"
-        f"[💫𝐀ʟʟ 𝐑ᴇᴘᴏ 💫](https://github.com/Badhacker98/Pbx_TeamBot/fork)\n"
+        f"[💫𝐀ʟʟ 𝐑ᴇᴘᴏ 💫](https://github.com/Badhacker98?tab=repositories)\n"
     )    
 
 
