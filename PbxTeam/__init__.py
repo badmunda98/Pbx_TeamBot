@@ -4,6 +4,9 @@ from aiohttp import ClientSession
 # Ai-Userbot Version
 __version__ = "v2.1.0"
 
+from SafoneAPI import SafoneAPI
+
+safone = SafoneAPI()
 spam_chats = []
 aiosession = ClientSession()
 SUDO_USER = SUDO_USERS
