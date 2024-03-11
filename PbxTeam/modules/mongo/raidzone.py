@@ -62,6 +62,29 @@ async def del_fuckraid_user(user_id: int) -> bool:
     return True
 
 
+# PbiRaid Users Database
+
+async def is_pbiraid_user(user_id: int) -> bool:
+    user = await pbiraiddb.find_one({"user_id": user_id})
+    if not user:
+        return False
+    return True
+
+
+async def add_pbiraid_user(user_id: int) -> bool:
+    is_pbiraid = await is_pbiraid_user(user_id)
+    if is_pbiraid:
+        return False
+    await pbiraiddb.insert_one({"user_id": user_id})
+    return True
+
+
+async def del_pbiraid_user(user_id: int) -> bool:
+    is_pbiraid = await is_pbiraid_user(user_id)
+    if not is_pbiraid:
+        return False
+    await pbiraiddb.delete_one({"user_id": user_id})
+    return True
 
 # LoveRaid Users Database
 
