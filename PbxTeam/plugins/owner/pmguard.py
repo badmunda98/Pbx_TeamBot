@@ -102,7 +102,7 @@ async def unblock_user_func(client, message):
     await message.edit("Unblock User Successfully !")
 
 
-__NAME__ = "✯ ɢᴜᴀʀᴅ ✯"
+__NAME__ = "ɢᴜᴀʀᴅ "
 __MENU__ = f"""
 **🥀 An Advanced Security System
 To Protect From DM Spams ✨.**
