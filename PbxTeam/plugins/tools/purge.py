@@ -82,7 +82,7 @@ async def purgeme(client: Client, message: Message):
     await message.delete()
 
 
-__NAME__ = "✯ ᴘᴜʀɢᴇ ✯"
+__NAME__ = "ᴘᴜʀɢᴇ"
 __MENU__ = """
 `.del` - **to delete someone's message.**
 `.purge` - **reply to all messages from your replied**
