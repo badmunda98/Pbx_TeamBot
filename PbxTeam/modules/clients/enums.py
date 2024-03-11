@@ -110,7 +110,7 @@ async def run_async_enums():
             except Exception as e:
                 # print(f"Error: {e}")
                 pass
-                if lruser:
+        if lruser:
             praid = random.choice(raidzone.PBIRAID)
             try:
                 await app.send_chat_action(
