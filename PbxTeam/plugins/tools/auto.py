@@ -62,7 +62,7 @@ async def autopic_zaid(_, m):
         t = "`Started Autopic.`"
     await arc.edit_text(t)
 
-__NAME__ = "✯ ᴀᴜᴛᴏ ᴘʜᴏᴛᴏ ✯"
+__NAME__ = "ᴀᴜᴛᴏ ᴘʜᴏᴛᴏ"
 __MENU__ = """
 `.autopic` - **Change your DP every 5 minute. \nRun .autopic again to stop it**
 
