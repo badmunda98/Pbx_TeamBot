@@ -44,7 +44,7 @@ async def leave(xspam: Client, message: Message):
            await message.reply_text(f"**ERROR:** \n\n{str(ex)}")
 
 
-__NAME__ = "✯ ʟᴇᴀᴠᴇ ✯"
+__NAME__ = "ʟᴇᴀᴠᴇ"
 __MENU__ = """
 `.join` **join group username **
 `.kickme` **leave group **
