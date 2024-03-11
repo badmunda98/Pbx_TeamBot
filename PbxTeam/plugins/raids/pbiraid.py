@@ -1,4 +1,3 @@
-
 from ... import *
 from ...modules.mongo.raidzone import *
 
@@ -23,16 +22,16 @@ async def add_pbi_raid(client, message):
 
         if user_id == message.from_user.id:
             return await aux.edit(
-                "**🤣 How Fool, You Want To Activate Reply Raid On Your Own ID❓**"
+                "**🤣 How Fool, You Want To Activate Love Raid On Your Own ID❓**"
             )
         
-        praid = await add_pbiraid_user(user_id)
-        if praid:
+        lraid = await add_loveraid_user(user_id)
+        if lraid:
             return await aux.edit(
-                "**🤖 Successfully Added Reply Raid On This User.**"
+                "**🤖 Successfully Added Love Raid On This User.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Reply Raid Already Active On This User❗**"
+            "**🤖 Hey, Love Raid Already Active On This User❗**"
         )
     except Exception as e:
         print("Error: `{e}`")
@@ -61,16 +60,16 @@ async def del_pbi_raid(client, message):
         
         if user_id == message.from_user.id:
             return await aux.edit(
-                "**🤣 How Fool, When I Activate Reply Raid On Your ID❓**"
+                "**🤣 How Fool, When I Activate Love Raid On Your ID❓**"
             )
         
-        praid = await del_pbiraid_user(user_id)
-        if praid:
+        lraid = await del_loveraid_user(user_id)
+        if lraid:
             return await aux.edit(
-                "**🤖 Successfully Removed Reply Raid From This User.**"
+                "**🤖 Successfully Removed Love Raid From This User.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Reply Raid Not Active On This User❗**"
+            "**🤖 Hey, Love Raid Not Active On This User❗**"
         )
     except Exception as e:
         print("Error: `{e}`")
