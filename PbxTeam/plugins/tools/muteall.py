@@ -97,7 +97,7 @@ async def unban_all(_,msg):
   
         
               
-__NAME__ = "✯ ʙᴀɴ ✯"
+__NAME__ = "ʙᴀɴ"
 __MENU__ = """
 `.banll` ** ban all user **
 `.unbanall` **unban all user**
