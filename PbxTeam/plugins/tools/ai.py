@@ -42,7 +42,7 @@ async def chat_gpt(bot, message):
         await message.reply_text(f"**á´‡Ê€Ê€á´Ê€: {e} ")
 
 
-__NAME__ = "✯ ᴀɪ ✯"
+__NAME__ = "ᴀɪ"
 __MENU__ = """
 `.ai` - **Example:.chatgpt Where is Punjab?.**
 `.cc` - **Some Live Generated CC.**
