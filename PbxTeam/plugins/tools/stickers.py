@@ -577,7 +577,7 @@ async def stick2png(client: Client, message: Message):
             message.chat.id, f"**INFO:** `{e}`", reply_to_message_id=ReplyCheck(message)
         )
 
-__NAME__ = "✯ sᴛɪᴄᴋᴇʀ ✯"
+__NAME__ = "sᴛɪᴄᴋᴇʀ"
 __MENU__ = """
 `.kang` - **Reply .kang To Sticker Or Image To Add To Sticker Pack**
 `.packinfo` - **To Get Sticker Pack Information.**
