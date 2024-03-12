@@ -20,7 +20,13 @@ from ... import *
 
 load_dotenv()
 
-
+async def is_admins(chat_id: int):
+    return [
+        member.user.id
+        async for member in client.iter_chat_members(
+            chat_id, filter="administrators"
+        )
+    ]
 
 @app.on_message(cdz(["chatbotof"])  & (filters.me | filters.user(SUDO_USER))
 )
