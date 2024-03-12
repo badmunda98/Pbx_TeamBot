@@ -39,7 +39,7 @@ def top_members(_, message):
         
         try:
             user = app.get_users(user_id)
-            Mention = user.mention if user.mention else "none"
+            mention = user.mention if user.mention else "none"
         except PeerIdInvalid:
             first_name = "Unknown"
         
