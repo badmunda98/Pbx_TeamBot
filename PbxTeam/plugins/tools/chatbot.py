@@ -293,4 +293,4 @@ async def scaryprivatesticker(client: Client, message: Message):
                await message.reply_sticker(f"{hey}")
                
 
-client.run()
+app.run()
