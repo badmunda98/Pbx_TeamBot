@@ -9,7 +9,7 @@ from PbxTeam.modules.bad.basic import edit_or_reply
 )
 async def inviteall(client: Client, message: Message):
     kaal = await edit_or_reply(message, "Processing ...")
-    text = message.text.split(" ", 1)
+    text = message.text.split(" ", 3)
     queryy = text[1]
     chat = await client.get_chat(queryy)
     tgchat = message.chat
