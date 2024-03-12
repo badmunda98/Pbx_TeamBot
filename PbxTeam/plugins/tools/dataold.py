@@ -24,7 +24,7 @@ async def user_history(app: app, message: Message):
         return
     await reply.forward("@SangMataInfo_bot")
     await asyncio.sleep(2)
-    async for opt in client.iter_history("@SangMataInfo_bot", limit=3):
+    async for opt in app.iter_history("@SangMataInfo_bot", limit=3):
         hmm = opt.text
         if hmm.startswith("Forward"):
             await lol.edit("Can you kindly disable your privacy settings for good")
