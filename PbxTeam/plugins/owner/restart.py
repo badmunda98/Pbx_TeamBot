@@ -8,9 +8,9 @@ from ... import *
 
 @app.on_message(cdz(["restart"]) & (filters.me | filters.user(SUDO_USER)))
 async def restart(client: Client, message: Message):
-    reply = await message.reply_text("**Restarting...**")
+    reply = await message.reply_text("**🔁 Rᴇsᴛᴀʀᴛɪɴɢ 🔥 ...**")
     await message.delete()
-    await reply.edit_text("Successfully Restarted PbxBot...\n\n💞 Wait 1-2 minutes\nLoad plugins...</b>")
+    await reply.edit_text("🥀 SᴜᴄᴄᴇssFᴜʟʟʏ RᴇSᴛᴀʀᴛᴇᴅ\n ᴘʙx シ︎ UsᴇʀBᴏᴛ 🔥 ...\n\n💕 Pʟᴇᴀsᴇ Wᴀɪᴛ 1-2 MɪN Fᴏʀ\nLᴏᴀᴅ Usᴇʀ Pʟᴜɢɪɴs ✨ ...</b>")
     os.system(f"kill -9 {os.getpid()} && python3 -m PbxTeam")
   
 
