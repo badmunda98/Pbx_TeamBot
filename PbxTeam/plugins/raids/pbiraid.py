@@ -1,4 +1,4 @@
-rom random import choice
+from random import choice
 from pyrogram import filters, Client
 from pyrogram.types import Message
 from PbxTeam.modules.bad.data import PBIRAID, VERIFIED_USERS, GROUP
