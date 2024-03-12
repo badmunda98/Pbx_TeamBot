@@ -4,7 +4,6 @@ from pyrogram.types import Message
 from ... import app, SUDO_USER
 from ... import *
 from PbxTeam.modules.bad.basics import edit_or_reply
-from PbxTeam.modules.bad.command import commandpro
 
 @app.on_message(cdz(["adduser"])  & (filters.me | filters.user(SUDO_USER))
 )
