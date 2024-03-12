@@ -18,13 +18,13 @@ async def user_history(app: app, message: Message):
         await lol.edit("reply to any text message")
     chat = message.chat.id
     try:
-        await app.send_message("@SangMataInfo_bot", "/start")
+        await app.send_message("@SangMata_BOT", "/start")
     except RPCError:
-        await lol.edit("Please unblock @SangMataInfo_bot and try again")
+        await lol.edit("Please unblock @SangMata_BOT and try again")
         return
-    await reply.forward("@SangMataInfo_bot")
+    await reply.forward("@SangMata_BOT")
     await asyncio.sleep(2)
-    async for opt in Client.iter_history("@SangMataInfo_bot", limit=3):
+    async for opt in Client.iter_history("@SangMata_BOT", limit=3):
         hmm = opt.text
         if hmm.startswith("Forward"):
             await lol.edit("Can you kindly disable your privacy settings for good")
@@ -32,7 +32,5 @@ async def user_history(app: app, message: Message):
         else:
             await lol.delete()
             await opt.copy(chat)
-
-
-
-
+            
+            
