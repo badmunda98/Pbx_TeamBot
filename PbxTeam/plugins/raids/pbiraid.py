@@ -1,7 +1,7 @@
 from random import choice
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from PbxTeam.modules.bad.data import PBIRAID, VERIFIED_USERS, GROUP
+from PbxTeam.modules.bad.data import RAID, VERIFIED_USERS, GROUP
 from ... import app, SUDO_USER, safone
 from ... import *
 
@@ -65,7 +65,7 @@ async def watch_raids(client: Client, message: Message):
         user = message.from_user.id
         userr = message.from_user
         mention = f"[{userr.first_name}](tg://user?id={userr.id})"
-        raid = f"{mention} {choice(PBIRAID)}"
+        raid = f"{mention} {choice(RAID)}"
         if int(user) in VERIFIED_USERS:
             return
         elif int(user) in SUDO_USER:
