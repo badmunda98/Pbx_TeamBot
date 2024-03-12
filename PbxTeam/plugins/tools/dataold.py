@@ -18,7 +18,7 @@ async def user_history(app: app, message: Message):
         await lol.edit("reply to any text message")
     chat = message.chat.id
     try:
-        await client.send_message("@SangMataInfo_bot", "/start")
+        await app.send_message("@SangMataInfo_bot", "/start")
     except RPCError:
         await lol.edit("Please unblock @SangMataInfo_bot and try again")
         return
