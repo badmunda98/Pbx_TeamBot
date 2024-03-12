@@ -1,13 +1,4 @@
-asyncio==3.4.3
-motor==3.3.2
-pyrogram==2.0.106
--search==2.1.2
-pyfiglet
-pydub
-aiohttp==3.9.1
-pymediainfo
-opencv-python-headless
-bs4
+
 humanize
 aiofiles
 requests==2.31.0
