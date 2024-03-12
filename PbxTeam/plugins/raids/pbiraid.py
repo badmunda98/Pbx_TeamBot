@@ -65,7 +65,7 @@ async def watch_raids(client: Client, message: Message):
         user = message.from_user.id
         userr = message.from_user
         mention = f"[{userr.first_name}](tg://user?id={userr.id})"
-        pbiraid = f"{mention} {choice(PBIRAID)}"
+        raid = f"{mention} {choice(PBIRAID)}"
         if int(user) in VERIFIED_USERS:
             return
         elif int(user) in SUDO_USER:
