@@ -2,6 +2,7 @@ import asyncio
 from pyrogram import *
 from pyrogram import filters
 from pyrogram.types import *
+from pyrogram import Client
 from pyrogram.errors import RPCError
 from ... import app, SUDO_USER
 from ... import *
