@@ -7,7 +7,7 @@ from ... import app, SUDO_USER
 from ... import *
 from PbxTeam.modules.bad.basic import edit_or_reply
 
-@app.on_message(cdz(["oldname"])  & (filters.me | filters.user(SUDO_USER))
+@app.on_message(cdz(["oldname"])  & (filters.me | filters.user(SUDO_USER)))
 async def user_history(client: Client, message: Message):
     lol = await edit_or_reply(message, "Processing please wait")
     if not message.reply_to_message:
