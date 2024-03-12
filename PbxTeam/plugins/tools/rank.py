@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pymongo import MongoClient
 from pyrogram.types import *
-from ... import app, SUDO_USER, MONGO_DB
+from ... import app, SUDO_USER, MONGO_DB_URL
 from ... import *
 
-mongo_client = MongoClient(MONGO_DB)
+mongo_client = MongoClient(MONGO_DB_URL)
 db = mongo_client["bad_rankings"]
 collection = db["ranking"]
 
