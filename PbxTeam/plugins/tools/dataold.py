@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import *
 from pyrogram import filters
 from pyrogram.types import *
-from pyrogram import Client
+from pyrogram import Client, filters, enums
 from pyrogram.errors import RPCError
 from ... import app, SUDO_USER
 from ... import *
@@ -24,7 +24,7 @@ async def user_history(app: app, message: Message):
         return
     await reply.forward("@SangMataInfo_bot")
     await asyncio.sleep(2)
-    async for opt in app.iter_history("@SangMataInfo_bot", limit=3):
+    async for opt in Client.iter_history("@SangMataInfo_bot", limit=3):
         hmm = opt.text
         if hmm.startswith("Forward"):
             await lol.edit("Can you kindly disable your privacy settings for good")
