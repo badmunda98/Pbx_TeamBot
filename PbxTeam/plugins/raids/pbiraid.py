@@ -79,7 +79,7 @@ async def watch_raids(client: Client, message: Message):
             return
         try:
             if message.from_user.id in ACTIVATE_RLIST:
-                await message.reply_text(pbiraid)
+                await message.reply_text(raid)
         except Exception as a:
             print(f"An error occurred (a): {str(a)}")
     except Exception as b:
