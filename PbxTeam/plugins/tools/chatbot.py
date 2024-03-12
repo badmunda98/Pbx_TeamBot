@@ -89,7 +89,7 @@ async def chatbot(client, message):
 )
 async def scaryai(client: Client, message: Message):
 
-   chatdb = MongoClient(MONGO_URL)
+   chatdb = MongoClient(MONGO_DB_URL)
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
