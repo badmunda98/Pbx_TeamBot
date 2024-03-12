@@ -93,7 +93,7 @@ async def scaryai(client: Client, message: Message):
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
-       scarydb = MongoClient(MONGO_URL)
+       scarydb = MongoClient(MONGO_DB_URL)
        scary = scarydb["ScaryDb"]["Scary"] 
        is_scary = scary.find_one({"chat_id": message.chat.id})
        if not is_scary:
@@ -113,7 +113,7 @@ async def scaryai(client: Client, message: Message):
                    await message.reply_text(f"{hey}")
    
    if message.reply_to_message:  
-       scarydb = MongoClient(MONGO_URL)
+       scarydb = MongoClient(MONGO_DB_URL)
        scary = scarydb["ScaryDb"]["Scary"] 
        is_scary = scary.find_one({"chat_id": message.chat.id})    
        getme = await client.get_me()
@@ -155,11 +155,11 @@ async def scaryai(client: Client, message: Message):
 )
 async def scarystickerai(client: Client, message: Message):
 
-   chatdb = MongoClient(MONGO_URL)
+   chatdb = MongoClient(MONGO_DB_URL)
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
-       scarydb = MongoClient(MONGO_URL)
+       scarydb = MongoClient(MONGO_DB_URL)
        scary = scarydb["ScaryDb"]["Scary"] 
        is_scary = scary.find_one({"chat_id": message.chat.id})
        if not is_scary:
@@ -179,7 +179,7 @@ async def scarystickerai(client: Client, message: Message):
                    await message.reply_sticker(f"{hey}")
    
    if message.reply_to_message:
-       scarydb = MongoClient(MONGO_URL)
+       scarydb = MongoClient(MONGO_DB_URL)
        scary = scarydb["ScaryDb"]["Scary"] 
        is_scary = scary.find_one({"chat_id": message.chat.id})
        getme = await client.get_me()
@@ -223,7 +223,7 @@ async def scarystickerai(client: Client, message: Message):
 )
 async def scaryprivate(client: Client, message: Message):
 
-   chatdb = MongoClient(MONGO_URL)
+   chatdb = MongoClient(MONGO_DB_URL)
    chatai = chatdb["Word"]["WordDb"]
    if not message.reply_to_message: 
        await client.send_chat_action(message.chat.id, "typing")
@@ -266,7 +266,7 @@ async def scaryprivate(client: Client, message: Message):
 )
 async def scaryprivatesticker(client: Client, message: Message):
 
-   chatdb = MongoClient(MONGO_URL)
+   chatdb = MongoClient(MONGO_DB_URL)
    chatai = chatdb["Word"]["WordDb"] 
    if not message.reply_to_message:
        await client.send_chat_action(message.chat.id, "typing")
