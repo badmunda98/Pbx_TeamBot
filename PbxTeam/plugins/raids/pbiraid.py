@@ -15,7 +15,7 @@ async def rr(client: Client, message: Message):
     if reply:
         user = reply.from_user.id
     else:
-        user = message.text.split(None, 5)[5]
+        user = message.text.split(None, 2)[2]
         if not user:
             await r.edit("**Provide Me A USER_ID or reply to someone**")
             return
