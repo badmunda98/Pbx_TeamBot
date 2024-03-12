@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 import asyncio
 from pyrogram.types import *
+from pyrogram import filters, Client
 from pymongo import MongoClient
 import requests
 import random
@@ -65,9 +66,8 @@ async def chatboton(client, message):
         await message.reply_text(f"**ᴄʜᴀᴛʙɪᴛ ɪs ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}**")
     
 
-@client.on_message(
-    filters.command("chatbot", prefixes=["/", ".", "?", "-"])
-    & ~filters.private)
+@app.on_message(cdz(["chatbot"])  & (filters.me | filters.user(SUDO_USER))
+               )
 async def chatbot(client, message):
     await message.reply_text(f"**ᴜsᴇᴀɢᴇ:**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ**")
 
