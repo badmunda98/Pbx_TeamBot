@@ -292,5 +292,3 @@ async def scaryprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
                
-
-app.run()
