@@ -138,7 +138,7 @@ async def scaryai(client: Client, message: Message):
                if not is_chat:
                    chatai.insert_one({"word": message.reply_to_message.text, "text": message.text, "check": "none"})                                                                                                                                               
 
-@client.on_message(
+@app.on_message(
  (
         filters.sticker
         | filters.text
@@ -206,7 +206,7 @@ async def scarystickerai(client: Client, message: Message):
               
 
 
-@client.on_message(
+@app.on_message(
     (
         filters.text
         | filters.sticker
@@ -249,7 +249,7 @@ async def scaryprivate(client: Client, message: Message):
            if not Yo == "sticker":
                await message.reply_text(f"{hey}")
                      
-@client.on_message(
+@app.on_message(
  (
         filters.sticker
         | filters.text
