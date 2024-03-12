@@ -14,7 +14,7 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from os import getenv
 import re
 from dotenv import load_dotenv
-from ... import app, SUDO_USER
+from ... import app, SUDO_USER, MONGO_DB_URL
 from ... import *
 
 
@@ -25,7 +25,7 @@ load_dotenv()
 @app.on_message(cdz(["chatbotof"])  & (filters.me | filters.user(SUDO_USER))
 )
 async def chatbotofd(client, message):
-    scarydb = MongoClient(MONGO_URL)    
+    scarydb = MongoClient(MONGO_DB_URL)    
     scary = scarydb["ScaryDb"]["Scary"]     
     if message.from_user:
         user = message.from_user.id
@@ -47,7 +47,7 @@ async def chatbotofd(client, message):
 @app.on_message(cdz(["chatboton"])  & (filters.me | filters.user(SUDO_USER))
 )
 async def chatboton(client, message):
-    scarydb = MongoClient(MONGO_URL)    
+    scarydb = MongoClient(MONGO_DB_URL)    
     scary = scarydb["ScaryDb"]["Scary"]     
     if message.from_user:
         user = message.from_user.id
