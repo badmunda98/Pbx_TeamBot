@@ -72,7 +72,7 @@ async def chatbot(client, message):
     await message.reply_text(f"**ᴜsᴇᴀɢᴇ:**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ**")
 
     
-@client.on_message(
+@app.on_message(
  (
         filters.text
         | filters.sticker
