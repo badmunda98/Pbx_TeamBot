@@ -11,7 +11,7 @@
 > The easy way to host this bot, deploy to Heroku 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Badhacker98/Pbx_TeamBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/badmunda98/Pbx_TeamBot)
 
 ## 🖇 Generating Pyrogram String Session
 
