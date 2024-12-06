@@ -29,6 +29,9 @@ async def get_result(query: str):
 
 
 async def get_stream(link, type):
+    # Path to your cookies file
+    cookies_file = "cookies.txt"
+    
     if type == "Audio":
         ydl_opts = {
             "format": "bestaudio/best",
@@ -37,6 +40,7 @@ async def get_stream(link, type):
             "nocheckcertificate": True,
             "quiet": True,
             "no_warnings": True,
+            "cookiefile": cookies_file,  # Use cookies
         }
 
     elif type == "Video":
@@ -47,6 +51,7 @@ async def get_stream(link, type):
             "nocheckcertificate": True,
             "quiet": True,
             "no_warnings": True,
+            "cookiefile": cookies_file,  # Use cookies
         }
         
     x = yt_dlp.YoutubeDL(ydl_opts)
@@ -95,7 +100,6 @@ async def run_stream(file, type):
     return stream
 
 
-
 async def close_stream(chat_id):
     try:
         await queues.clear(chat_id)
@@ -105,4 +109,3 @@ async def close_stream(chat_id):
         return await call.leave_group_call(chat_id)
     except:
         pass
-
